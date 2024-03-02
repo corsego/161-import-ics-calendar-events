@@ -6,6 +6,15 @@ class EventsController < ApplicationController
     @events = Event.all
   end
 
+  def import
+    files = params[:ics_files].reject(&:blank?)
+    files.each do |file|
+      Event.create_from_ics(file)
+    end
+
+    redirect_to events_path, notice: "Events imported!"
+  end
+
   # GET /events/1 or /events/1.json
   def show
   end

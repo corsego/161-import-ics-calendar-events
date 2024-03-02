@@ -1,5 +1,10 @@
 <p style="color: green"><%= notice %></p>
 
+<%= form_with url: import_events_path, method: :post do |form| %>
+  <%= form.file_field :ics_files, multiple: true %>
+  <%= form.submit %>
+<% end %>
+
 <h1>Events</h1>
 
 <div id="events">

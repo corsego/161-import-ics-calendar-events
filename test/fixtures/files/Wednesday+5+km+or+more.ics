@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Meetup//RemoteApi//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-ORIGINAL-URL:https://www.meetup.com/nice-runners/events/299443075/ical/
+ Wednesday+5+km+or+more.ics
+X-WR-CALNAME:Events - Wednesday 5 km or more.ics
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Paris
+X-LIC-LOCATION:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20240302T205210Z
+DTSTART;TZID=Europe/Paris:20240304T193000
+DTEND;TZID=Europe/Paris:20240304T210000
+STATUS:CONFIRMED
+SUMMARY:Wednesday 5 km or more
+DESCRIPTION:Nice Runners\nMonday\, March 4 at 7:30 PM\n\nwe meet and run 
+ 5 to 10 km. in the group there are different speeds and different levels
+  of preparation and everyone makes the distance they feel. in ...\n\nhtt
+ ps://www.meetup.com/nice-runners/events/299443075/
+CLASS:PUBLIC
+CREATED:20240226T173204Z
+GEO:43.70;7.26
+LOCATION:Ma Nolan's Irish Pub at - Vieux\, Nice (2 Rue Saint François De 
+ Paule  (Cours Saleya)\, Nice\, France)
+URL:https://www.meetup.com/nice-runners/events/299443075/
+LAST-MODIFIED:20240226T173204Z
+UID:event_jlvnktygcfbgb@meetup.com
+END:VEVENT
+END:VCALENDAR
